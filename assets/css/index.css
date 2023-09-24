@@ -1,0 +1,521 @@
+/* ヘッダーのスタイル */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+body {
+  font-family: monospace;
+  margin: 0px;
+}
+#headCN{
+  display: flex;
+}
+#camName{
+  font-family: cursive;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* ナビゲーションメニューのスタイル */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* CTAボタンのスタイル */
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.cta-button:hover {
+  background-color: #e04100;
+  color: #fff;
+  border-radius: 50px;
+}
+/* 特徴のハイライトセクションのスタイル */
+.feature-highlights {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.feature {
+  height: 110px;
+  width: 280px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-size: contain;
+  background-repeat: round;
+}
+.feature1 {
+  background-image: url(../images/money.png);
+}
+.feature2 {
+  color: #98a594;
+  background-image: url(../images/upDate.jpg);
+}
+.feature3 {
+  background-image: url(../images/cancel.jpg);
+}
+.feature4 {
+  color: #f7f7f7;
+  background-image: url(../images/server.jpg);
+}
+.feature5 {
+  background-image: url(../images/key.png);
+}
+
+
+
+.feature img {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+.feature h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.feature1 p {
+  font-size: 16px;
+  color: #040404;
+}
+.feature2 p {
+  font-size: 16px;
+  color: #98a594;
+}
+/* 制作プロセスセクションのスタイル */
+.process-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.process-steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.step {
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.step p {
+  font-size: 16px;
+  color: #555;
+}
+/* 成功事例セクションのスタイル */
+.success-stories {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.story {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.story img {
+  max-width: 100%;
+}
+
+.story h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.story p {
+  font-size: 16px;
+  color: #555;
+}
+/* 提案の詳細セクションのスタイル */
+.proposal-details {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.proposal-details h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.proposal-details p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.proposal-details ul {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.proposal-details ul li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.proposal-details ul li::before {
+  content: "•";
+  margin-right: 5px;
+  color: #ff4500;
+}
+/* CTAセクションのスタイル */
+.cta-section {
+  background-color: #ff4500;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cta-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #fff;
+  color: #ff4500;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #e04100;
+}
+/* お問い合わせフォームセクションのスタイル */
+.contact-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff4500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #e04100;
+}
+/* 顧客の声セクションのスタイル */
+.testimonials-section {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  max-width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+blockquote {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+cite {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* FAQセクションのスタイル */
+.faq-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.faq-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #555;
+}
+/* スタイルシートのスタイルを定義 */
+#why-choose-us {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.benefit {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefit h3 {
+  font-size: 24px;
+}
+
+.benefit p {
+  font-size: 16px;
+}
+
+/* 連絡情報セクションのスタイル */
+.contact-info-section {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact-info-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.contact-info p strong {
+  font-weight: bold;
+}
+/* フッターセクションのスタイル */
+.footer-section {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-left p {
+  font-size: 14px;
+}
+
+.footer-left a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+
+.footer-right a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.footer-right img {
+  max-width: 24px;
+  height: auto;
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+  #camName{
+    display: none;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 8px;
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .proposal-details {
+    padding: 40px 10px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  .faq-section {
+    padding: 40px 10px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .contact-info-section {
+    background-color: #f7f7f7;
+    padding: 40px 10px;
+    text-align: center;
+  }
+  .footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+}
